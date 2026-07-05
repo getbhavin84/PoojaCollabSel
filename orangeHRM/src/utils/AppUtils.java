@@ -19,7 +19,7 @@ public class AppUtils
 	@BeforeSuite
 	public static void launchApp()
 	{
-		System.out.println("Testing Git staging..");
+		System.out.println("Testing Git staging...");
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();

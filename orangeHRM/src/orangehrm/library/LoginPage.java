@@ -13,6 +13,7 @@ public class LoginPage extends AppUtils
 		driver.findElement(By.id("txtUsername")).sendKeys(uid);
 		driver.findElement(By.id("txtPassword")).sendKeys(pwd);
 		driver.findElement(By.id("btnLogin")).click();	
+		System.out.println("Clicked on login..");
 	}
 	
 	
