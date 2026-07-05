@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# Eclipse
+bin/
+.settings/
+.project
+.classpath
+
+# TestNG Reports
+test-output/
+
+# Logs
+*.log
+
+# Executables
+chromedriver.exe
