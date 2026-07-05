@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 
 public class AppUtils
 {
-
+	
 	public static WebDriver driver;
 	public static String appurl = "http://orangehrm.qedgetech.com";
 	
@@ -19,6 +19,7 @@ public class AppUtils
 	@BeforeSuite
 	public static void launchApp()
 	{
+		System.out.println("Testing Git staging..");
 		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
