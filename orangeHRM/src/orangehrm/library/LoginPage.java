@@ -13,7 +13,7 @@ public class LoginPage extends AppUtils
 		driver.findElement(By.id("txtUsername")).sendKeys(uid);
 		driver.findElement(By.id("txtPassword")).sendKeys(pwd);
 		driver.findElement(By.id("btnLogin")).click();	
-		System.out.println("Clicked on login..+git6jul26");
+		System.out.println("Clicked on login..6jul26_sec change");
 	}
 	
 	
@@ -47,7 +47,9 @@ public class LoginPage extends AppUtils
 		}
 	}
 	
-	
+	public void clickForgotPassword() {
+	    System.out.println("Forgot Password clicked");
+	}
 	
 	
 }
